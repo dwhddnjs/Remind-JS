@@ -1,4 +1,4 @@
-// srest 파라미터
+// rest 파라미터
 
 function sum(...rest) {
   return rest.reduce((acc, cur) => acc + cur, 0);
